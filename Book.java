@@ -52,4 +52,12 @@ class Book
     {
         return pages;
     }
+    
+    /**
+     * Prints the title, author, and pages
+     */
+    public void printDetails()
+    {
+        System.out.println("Title: " + title + ", Author: " + author + ", Pages: " + pages);
+    }
 }
